@@ -12,7 +12,8 @@ if sys.version_info[0] == 2:
     from io import open
 
 
-VERSION = ".".join(map(str, mpd.VERSION))
+# VERSION = ".".join(map(str, mpd.VERSION))
+VERSION = "0.6.0r2s2"
 
 CLASSIFIERS = [
     "Development Status :: 5 - Production/Stable",
